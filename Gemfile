@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Ruby gem for automatically transforming JSX and using React in Rails.
 gem 'react-rails'
 
+# A wrapper for Rails around the awesome marked JavaScript markdown library.
+gem 'marked-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
